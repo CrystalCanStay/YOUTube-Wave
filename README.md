@@ -2,6 +2,7 @@
 ## Overview
 YOUtube Wave is a dedicated locally run youtube to .wav converter for linux. Its currently built off of selenium to get link metadata, mpv for for playing videos, and pipewire for recording. To use, install the requirements, fill the links.txt file with youtube links, run main, and wait till it finishes! This program works by playing music and then recording your soundcard to get a final .wav file. Quality is not 1-1, nor is it perfect as an original file straight out of a DAW due to youtube compression, and re-encoding.
 ## Setup
+Download from /releases, extract the zip file, cd into the extracted zip. 
 For ubuntu based distros (since mpv/yt-dlp is not updated properly on this platform), run:
 ```
 sudo apt update
